@@ -36,7 +36,7 @@ A jewelry e-commerce application developed for a university Web Development proj
 
 7. Open the local URL displayed by Laravel in your browser.
 
-**Note:** If the application relies on seeded products or external search services, those may need additional configuration.
+**Note:** Create the MySQL database specified in your `.env` file before running the migrations. If the application requires sample products or other initial data, run the appropriate database seeders.
 
 ## Academic Context
 
