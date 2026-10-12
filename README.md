@@ -1,6 +1,6 @@
-# Vanity
+# Trinkets
 
-A cosmetics e-commerce application developed for a university Web Development project. It features a product catalog with shade options, shopping cart and checkout workflows, customer accounts, and product reviews.
+A jewelry e-commerce application developed for a university Web Development project. It features product browsing, search and filtering, shopping cart and checkout workflows, customer accounts, and order management.
 
 ## Tech Stack
 
@@ -20,14 +20,14 @@ A cosmetics e-commerce application developed for a university Web Development pr
    ```
 
 4. Copy `.env.example` to `.env` and configure the database connection.
-5. Generate the application key and run the migrations:
+5. Create the database, then generate the application key and run the migrations:
 
    ```bash
    php artisan key:generate
    php artisan migrate
    ```
 
-6. Build the frontend assets and start the development server:
+6. Build the frontend assets and start Laravel:
 
    ```bash
    npm run build
@@ -36,7 +36,7 @@ A cosmetics e-commerce application developed for a university Web Development pr
 
 7. Open the local URL displayed by Laravel in your browser.
 
-**Note:** The database must be created first. If the project requires seeded data or additional services, configure those according to the project's code.
+**Note:** If the application relies on seeded products or external search services, those may need additional configuration.
 
 ## Academic Context
 
